@@ -24,10 +24,10 @@ if(!$query) {
 }
 ?>
     <h1 class="search-label">Search for your favorite meals</h1>
-    <form class="meal-search" action="mealsearchresults.php">
+    <form class="meal-search" action="mealsearchresults.php" method="get">
         <div class="search-holder">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input class="search-bar" type="text" size="40" />
+            <input name="mealsearch" class="search-bar" type="text" size="40" />
         </div>
 
         <input class="submit-search" type="submit" value="↩" />

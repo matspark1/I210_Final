@@ -766,5 +766,9 @@ h3 {
 }
 .details-wrapper .meal-description p {
   margin-bottom: 40px;
-  font-size: 18px;
+  font-size: 23px;
+  max-width: 600px;
+  text-align: center;
 }
+
+/*# sourceMappingURL=styles.css.map */
