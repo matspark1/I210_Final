@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 15, 2023 at 09:31 PM
+-- Generation Time: Nov 15, 2023 at 09:51 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -68,7 +68,7 @@ CREATE TABLE `prepmeals` (
 
 INSERT INTO `prepmeals` (`id`, `title`, `price`, `category_id`, `serving_size`, `image`, `description`) VALUES
 (1, 'American Classics', 30.00, 1, 3, 'www/images/food2.jpg\r\n', 'American Classic dishes showcase a hearty and diverse culinary heritage, featuring iconic favorites such as juicy burgers, crispy fried chicken, macaroni and cheese, and apple pie, reflecting a delicious combinations flavors from across the United States.'),
-(2, 'Mediterranean Cuisine', 35.00, 2, 2, 'www/images/food6.jpg\r\n', 'Mediterranean dishes, feature an array of olives, feta cheese, juicy tomatoes, grilled fish, and herbs, creating a fusion that celebrates fresh, wholesome ingredients.'),
+(2, 'Mediterranean Crusine', 35.00, 2, 2, 'www/images/food6.jpg\r\n', 'Mediterranean dishes, feature an array of olives, feta cheese, juicy tomatoes, grilled fish, and herbs, creating a fusion that celebrates fresh, wholesome ingredients.'),
 (3, 'Greek Dish', 55.00, 2, 4, 'www/images/food10.jpg\r\n', 'Greek cuisine is a mix of fresh and healthy ingredients, featuring dishes such as moussaka, a layered casserole of eggplant, minced meat, and béchamel sauce, alongside classic delights like spanakopita, a savory spinach and feta pastry, all seasoned with olive oil, oregano, and the warmth of Mediterranean flavors.\r\n\r\n\r\n\r\n\r\n\r\n'),
 (4, 'Korean Dish', 50.00, 2, 3, 'www/images/food14.jpg\r\n', 'Asian dishes boast a blend of diverse culinary treasures, featuring the  artistry of sushi, the savory notes of Chinese stir-fries, the spices of Indian curries, and the umami richness of Japanese ramen, offering dynamic feast.\r\n\r\n\r\n\r\n\r\n\r\n'),
 (5, 'Mexican Cuisine', 35.00, 3, 3, 'www/images/food5.jpg\r\n', 'Mexican cuisine is a fiesta of savory delights, featuring classics like zesty tacos filled with grilled meats, creamy guacamole served alongside crisp tortilla chips, and enchiladas smothered in flavorful sauces, all embodying the diverse flavors of this culinary feast.\r\n\r\n\r\n\r\n\r\n\r\n'),
@@ -79,10 +79,58 @@ INSERT INTO `prepmeals` (`id`, `title`, `price`, `category_id`, `serving_size`, 
 (10, 'Indian Spice', 50.00, 4, 5, 'www/images/food8.jpg\r\n', 'Indian Spice Cuisine is a culinary plate with the aromatic allure of cumin, coriander, and cardamom, featuring  dishes such as spicy Chicken Tikka, flavorful Vegetable Biryani, and creamy Chicken Korma that fill the taste buds with a combination of rich and complex flavors.\r\n\r\n\r\n\r\n\r\n\r\n'),
 (11, 'French Bistro', 65.00, 1, 5, 'www/images/food12.jpg\r\n', 'A French Bistro cuisine is a delightful fusion of refined flavors, featuring classics such as Coq au Vin, Beef Bourguignon, and Ratatouille, accompanied by crusty baguettes, decadent pastries like Tarte Tatin, and a touch of French elegance in every dish.\r\n\r\n\r\n\r\n\r\n\r\n'),
 (12, 'Caribbean Creations', 35.00, 3, 3, 'www/images/food16.jpg\r\n', 'Caribbean Creations is a fusion of tropical influences, featuring jerk chicken, flavorful coconut-infused rice and peas, zesty mango salsa, and sweet plantains, offering a blend of spices and flavors reminiscent of the sunny Caribbean islands.\r\n\r\n\r\n\r\n\r\n\r\n'),
-(13, 'Authentic Japanese', 40.00, 2, 4, 'www/images/food3.jpg\r\n', 'Authentic Japanese cuisine is a culinary dish that features iconic dishes such as sushi, alongside tempura, a delicacy of perfectly battered and fried ingredients, and ramen, a soul-warming noodle soup with complex broth and a medley of toppings, all reflecting a deep respect for seasonal ingredients and culinary finesse.\r\n\r\n\r\n\r\n\r\n\r\n\r\n'),
+(13, 'Authentic Japenese', 40.00, 2, 4, 'www/images/food3.jpg\r\n', 'Authentic Japanese cuisine is a culinary dish that features iconic dishes such as sushi, alongside tempura, a delicacy of perfectly battered and fried ingredients, and ramen, a soul-warming noodle soup with complex broth and a medley of toppings, all reflecting a deep respect for seasonal ingredients and culinary finesse.\r\n\r\n\r\n\r\n\r\n\r\n\r\n'),
 (14, 'Chinese Cuisine', 25.00, 2, 3, 'www/images/food9.jpg\r\n', 'Chinese cuisine, a culinary dish showcasing a blend of savory and sweet flavors, featuring iconic dishes such as the aromatic and crispy Peking Duck, the savory delight of Dim Sum dumplings, and the comforting warmth of Beef Noodle Soup.\r\n\r\n\r\n\r\n\r\n\r\n\r\n'),
 (15, 'Middle Eastern', 55.00, 5, 5, 'www/images/food13.jpg\r\n', 'Middle Eastern cuisine is a feast for the senses, with a blend of flavors and textures, from the delights of falafel and kebabs to the allure of hummus, couscous, and baklava, all infused with the warmth of Mediterranean spices.\r\n\r\n\r\n\r\n\r\n\r\n\r\n'),
 (16, 'Vietnamese Cuisine', 30.00, 2, 3, 'www/images/food17.jpg\r\n', 'Vietnamese cuisine is a great blend of fresh and aromatic flavors, featuring iconic dishes such as pho, a fragrant noodle soup with savory broth and tender meat; banh mi, a crispy baguette filled with flavorful meats and fresh vegetables; and spring rolls, delicate rice paper parcels bursting with herbs, vermicelli, and either shrimp or pork. \r\n\r\n\r\n\r\n\r\n\r\n\r\n');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `roles`
+--
+
+CREATE TABLE `roles` (
+  `id` tinyint(4) NOT NULL,
+  `role` varchar(25) NOT NULL,
+  `description` varchar(250) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+--
+-- Dumping data for table `roles`
+--
+
+INSERT INTO `roles` (`id`, `role`, `description`) VALUES
+(1, 'System administrator', 'A system administrator has permissions to manage users and contents of the website.'),
+(2, 'User manager', ' A user manager has permission to manage user accounts.'),
+(3, 'Advanced user', 'In addition to the permission granted to the basic user role, an advanced user also has access to the search feature.'),
+(4, 'Basic user', 'A basic user has access to the shopping cart feature.');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `firstname` varchar(20) NOT NULL,
+  `lastname` varchar(20) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `username` varchar(20) NOT NULL,
+  `password` varchar(20) NOT NULL,
+  `role` tinyint(10) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `firstname`, `lastname`, `email`, `username`, `password`, `role`) VALUES
+(1, 'Main', 'Admin', '', 'admin', 'password', 1),
+(2, 'Basic', 'User', '', 'Basic', 'password', 4),
+(3, 'Advanced', 'User', '', 'Advanced', 'password', 3),
+(4, 'User', 'Manager', '', 'Manager', 'password', 2);
 
 --
 -- Indexes for dumped tables
@@ -102,6 +150,19 @@ ALTER TABLE `prepmeals`
   ADD KEY `X` (`category_id`);
 
 --
+-- Indexes for table `roles`
+--
+ALTER TABLE `roles`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `username` (`username`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -116,6 +177,12 @@ ALTER TABLE `categories`
 --
 ALTER TABLE `prepmeals`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- Constraints for dumped tables
