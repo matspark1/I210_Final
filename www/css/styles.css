@@ -296,6 +296,7 @@ nav .left-nav .login span {
   width: 78%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 80px;
 }
@@ -740,6 +741,7 @@ h3 {
   align-items: center;
   justify-content: space-evenly;
   width: 88%;
+  margin: 0 auto;
 }
 .details-wrapper .meal-img img {
   width: 450px;

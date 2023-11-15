@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="217af546-ca01-4d8c-94dd-ba8353a8fd72" name="Changes" comment="" />
+    <list default="true" id="217af546-ca01-4d8c-94dd-ba8353a8fd72" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +53,8 @@
       <workItem from="1700075653598" duration="385000" />
       <workItem from="1700077382863" duration="2243000" />
       <workItem from="1700082898268" duration="113000" />
+      <workItem from="1700084268509" duration="51000" />
+      <workItem from="1700084333973" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -84,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700082930697</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added meal details">
+      <option name="closed" value="true" />
+      <created>1700084289927</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700084289927</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +107,7 @@
     <MESSAGE value="meal details fix" />
     <MESSAGE value="meal search fix" />
     <MESSAGE value="added database and made meals.php work" />
-    <option name="LAST_COMMIT_MESSAGE" value="added database and made meals.php work" />
+    <MESSAGE value="added meal details" />
+    <option name="LAST_COMMIT_MESSAGE" value="added meal details" />
   </component>
 </project>
