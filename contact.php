@@ -4,7 +4,7 @@
  * Date: today's date
  * Description: this script displays shopping cart content.
  */
-$page_title = "Meals";
+$page_title = "Contact Us";
 require_once('includes/header.php');
 ?>
     <div class="contact-hero">

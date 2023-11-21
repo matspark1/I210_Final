@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="217af546-ca01-4d8c-94dd-ba8353a8fd72" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/Main_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Main_db.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\XAMPP\htdocs\I210\I210_Final" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,6 +61,7 @@
       <workItem from="1700082898268" duration="113000" />
       <workItem from="1700084268509" duration="51000" />
       <workItem from="1700084333973" duration="8000" />
+      <workItem from="1700084717958" duration="464000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -96,7 +103,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700084289927</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new styles">
+      <option name="closed" value="true" />
+      <created>1700084745086</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700084745086</updated>
+    </task>
+    <task id="LOCAL-00007" summary="sql fix">
+      <option name="closed" value="true" />
+      <created>1700084964424</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700084964424</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +131,8 @@
     <MESSAGE value="meal search fix" />
     <MESSAGE value="added database and made meals.php work" />
     <MESSAGE value="added meal details" />
-    <option name="LAST_COMMIT_MESSAGE" value="added meal details" />
+    <MESSAGE value="new styles" />
+    <MESSAGE value="sql fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql fix" />
   </component>
 </project>

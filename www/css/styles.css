@@ -301,6 +301,16 @@ nav .left-nav .login span {
   margin-bottom: 80px;
 }
 
+.mealplans .mealplans-boxes2 {
+  margin-top: 50px;
+  width: 78%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
 .mealplans-box {
   height: 540px;
   width: 300px;
@@ -773,4 +783,12 @@ h3 {
   text-align: center;
 }
 
-/*# sourceMappingURL=styles.css.map */
+.body-wrapper .mealplans .mealplans-boxes2 {
+  margin-top: 50px;
+  width: 78%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}

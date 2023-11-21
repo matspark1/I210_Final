@@ -11,7 +11,7 @@ require_once('includes/header.php');
     <div class="home-hero">
         <h1>EAT <span>FRESH</span></h1>
         <h2><span>Fresh meals made for you, everyday</span></h2>
-        <a href="##">Find Your Perfect Meal</a>
+        <a href="meals.php">Find Your Perfect Meal</a>
     </div>
     <div class="savings-banner">
         <div class="savings-per">
