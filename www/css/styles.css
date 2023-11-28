@@ -792,3 +792,15 @@ h3 {
   flex-wrap: wrap;
   margin-bottom: 80px;
 }
+
+.searchresult-box{
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+searchresult-box p{
+  color: #fff;
+  font-size: 20px;
+}

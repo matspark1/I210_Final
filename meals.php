@@ -9,7 +9,7 @@ require_once('includes/header.php');
 require_once('includes/database.php');
 
 //select statement
-$sql = "SELECT title, price, category, serving_size, id, image 
+$sql = "SELECT $tblMeals.*, $tblCategory.Category 
 FROM $tblMeals, $tblCategory 
 WHERE $tblMeals.category_id = $tblCategory.category_id";
 
