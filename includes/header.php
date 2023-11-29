@@ -23,6 +23,7 @@
 
         <div class="left-nav">
             <a href="meals.php">Meals</a>
+            <a href="addmeal.php">Add Meal</a>
             <a href="contact.php">Contact</a>
             <a href="shoppingcart.php"
             ><i class="fa-solid fa-cart-shopping"></i
