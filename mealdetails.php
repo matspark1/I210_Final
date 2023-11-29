@@ -9,7 +9,7 @@ require_once('includes/header.php');
 require_once ('includes/database.php');
 
 if(!filter_has_var(INPUT_GET, 'id')){
-    $error = "Your request connot be processed since there was a problem with the Book ID";
+    $error = "Your request cannot be processed since there was a problem with finding the Meal";
     $conn->close();
     header("Locations: error.php?m=$error");
     exit;
@@ -32,15 +32,15 @@ $query = $conn->query($sql);
 if(!$query){
     $error = "Selection Failed: " . $conn->error;
     $conn->close();
-    header("Locations: error.php?m=$error");
+    header("Location: error.php?m=$error");
     exit;
 }
 
 $row = $query->fetch_assoc();
 if(!$row){
-    $error = "Book not found,";
+    $error = "Meal not found,";
     $conn->close();
-    header("Locations: error.php?m=$error");
+    header("Location: error.php?m=$error");
     exit;
 }
 ?>
