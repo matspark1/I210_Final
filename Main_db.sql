@@ -58,7 +58,7 @@ CREATE TABLE `prepmeals` (
   `price` decimal(5,2) NOT NULL,
   `category_id` tinyint(4) NOT NULL,
   `serving_size` int(11) NOT NULL,
-  `image` varchar(130) NOT NULL,
+  `image` varchar(500) NOT NULL,
   `description` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
