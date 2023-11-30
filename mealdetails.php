@@ -54,7 +54,7 @@ if(!$row){
             <h4><?= $row['Category'] ?></h4>
             <p>Serving Size: <?= $row['serving_size'] ?></p>
             <p><?= $row['description'] ?></p>
-            <input type="button" value="Delete Meal"
+            <input class="deletebutton" type="button" value="Delete Meal"
                    onclick="window.location.href='deletemeal.php?id=<?= $id ?>'">
         </div>
     </div>

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="217af546-ca01-4d8c-94dd-ba8353a8fd72" name="Changes" comment="" />
+    <list default="true" id="217af546-ca01-4d8c-94dd-ba8353a8fd72" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editmeal.php" beforeDir="false" afterPath="$PROJECT_DIR$/editmeal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meals.php" beforeDir="false" afterPath="$PROJECT_DIR$/meals.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +67,7 @@
       <workItem from="1700607017088" duration="509000" />
       <workItem from="1701194405279" duration="26000" />
       <workItem from="1701195811528" duration="33000" />
+      <workItem from="1701295775001" duration="1744000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -135,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701195832072</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix error.php">
+      <option name="closed" value="true" />
+      <created>1701295859547</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701295859547</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +165,7 @@
     <MESSAGE value="sql fix" />
     <MESSAGE value="quick fixes on titles and stuff" />
     <MESSAGE value="search function fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="search function fixes" />
+    <MESSAGE value="fix error.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix error.php" />
   </component>
 </project>

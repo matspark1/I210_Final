@@ -37,6 +37,9 @@ if (!$query) {
     <div class="mealplans-boxes">
         <?php while ($row = $query->fetch_assoc()) { ?>
             <div class="mealplans-box">
+                <a class="editbutton" title="Edit" href="editmeal.php?id=<?=$row['id']?>"
+                ><i class="fa-solid fa-pen-to-square"></i
+                    ></a>
                 <img src="<?= $row['image'] ?>" />
                 <div class="mealplan-desc">
                     <h3>
@@ -44,15 +47,16 @@ if (!$query) {
                     </h3>
                     <p>$<?= $row['price'] ?></p>
                     <p>Serving Size: <?= $row['serving_size'] ?></p>
-                    <!-- Edit button -->
-                    <div style="text-align: center;">
-                        <a href="editmeal.php?id=<?= $row['id'] ?>" class="editButton">Edit</a>
-                    </div>
                 </div>
                 <a href="###" class="addcartBtn">Add to Cart</a>
                 <span>Free Shipping <i class="fa-solid fa-truck-fast"></i></span>
             </div>
         <?php } ?>
+    </div>
+    <div class="addmealbtn">
+        <a class="addmeal" href="addmeal.php" title="Add Meal">
+            <i class="fa-solid fa-plus"></i
+            ></a>
     </div>
 </div>
 <!-- page footer for copyright information -->

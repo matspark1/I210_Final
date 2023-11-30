@@ -14,10 +14,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $serving_size = $_POST['serving_size'];
     $category_id = $_POST['category_id'];
     $description = $_POST['description'];
+    $image = $_POST['image'];
 
     //Update meal
     $sql = "UPDATE $tblMeals 
-            SET title='$title', price=$price, serving_size='$serving_size', category_id=$category_id, description='$description'
+            SET title='$title', price=$price, serving_size='$serving_size', category_id=$category_id, description='$description', image='$image'
             WHERE id=$id";
 
     //Execute query

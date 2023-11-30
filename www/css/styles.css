@@ -323,6 +323,7 @@ nav .left-nav .login span {
   transition: ease 0.2s;
   border-radius: 20px;
   box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.35);
+  position: relative;
 }
 .mealplans-box img {
   height: 250px;
@@ -803,4 +804,244 @@ h3 {
 searchresult-box p{
   color: #fff;
   font-size: 20px;
+}
+
+.editbutton {
+  position: absolute;
+  right: 0;
+  margin-right: 34px;
+  margin-top: 34px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  border: 2px solid #fff;
+  background-color: #2d873c;
+  border-radius: 40px;
+  transition: ease 0.1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.editbutton:hover {
+  color: #2d873c;
+  background-color: #fff;
+  border: 2px solid #2d873c;
+  transition: ease 0.2s;
+}
+
+.addmealbtn {
+  height: 540px;
+  width: 300px;
+  margin: -120px 30px 60px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #181818;
+  color: #fff;
+  transition: ease 0.2s;
+  border-radius: 20px;
+  position: relative;
+}
+.addmealbtn .addmeal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2d873c;
+  width: 86px;
+  height: 86px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.35);
+  text-decoration: none;
+  color: #fff;
+  border: 3px solid #fff;
+}
+.addmealbtn .addmeal:hover {
+  color: #2d873c;
+  background-color: #fff;
+  border: 3px solid #2d873c;
+  transition: ease 0.2s;
+}
+.addmealbtn .addmeal i {
+  font-size: 36px;
+}
+
+.deletebutton{
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "UniBlack", sans-serif;
+  padding: 12px 36px;
+  border: 3px solid #fff;
+  background-color: #2d873c;
+  border-radius: 40px;
+  transition: ease 0.1s;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.deletebutton:hover {
+  color: #2d873c;
+  background-color: #fff;
+  border: 3px solid #2d873c;
+  transition: ease 0.2s;
+}
+
+.meal-databaseform {
+  height: 900px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.meal-databaseform .databatesubmit {
+  color: #fff;
+  transition: ease 0.1s;
+  cursor: pointer;
+  background-color: #2d873c;
+  border: 2px solid #fff;
+  font-family: "UniBlack", sans-serif;
+  font-size: 22px;
+}
+.meal-databaseform .databatesubmit:hover {
+  transition: ease 0.1s;
+  color: #2d873c;
+  background-color: #fff;
+  border: 2px solid #2d873c;
+}
+.meal-databaseform input {
+  width: 600px;
+  height: 60px;
+  border-radius: 60px;
+  border: 2px solid #262626;
+  margin: 10px 0;
+  font-family: "UniBold", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  background-color: #313131;
+  color: #fff;
+  transition: ease 0.1s;
+}
+.meal-databaseform input:hover {
+  border: 2px solid #66B650;
+  transition: ease 0.05s;
+}
+.meal-databaseform input:active {
+  border: 2px solid #66B650;
+}
+.meal-databaseform select {
+  width: 600px;
+  height: 60px;
+  border-radius: 60px;
+  border: 2px solid #262626;
+  margin: 10px 0;
+  font-family: "UniBold", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #313131;
+  color: #fff;
+  transition: ease 0.1s;
+}
+.meal-databaseform select:hover {
+  border: 2px solid #66B650;
+  transition: ease 0.05s;
+}
+.meal-databaseform select:active {
+  border: 2px solid #66B650;
+}
+.meal-databaseform textarea {
+  width: 600px;
+  height: 300px;
+  border-radius: 30px;
+  border: 2px solid #262626;
+  margin: 10px 0;
+  font-family: "UniBold", sans-serif;
+  font-size: 20px;
+  padding: 16px;
+  background-color: #313131;
+  color: #fff;
+  transition: ease 0.1s;
+  overflow: hidden;
+}
+.meal-databaseform textarea:hover {
+  border: 2px solid #66B650;
+  transition: ease 0.05s;
+}
+.crudpage{
+  margin: 125px 0 65px 0;
+  font-family: "UniBlack", sans-serif;
+  text-align: center;
+  font-size: 46px;
+}
+
+.deletemeal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 900px;
+  margin: 100px;
+}
+.deletemeal-container img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 60px;
+  border: 3px solid #db3832;
+  margin-right: 10px;
+}
+.deletemeal-container p {
+  color: #db3832;
+  font-size: 28px;
+}
+.deletemeal-container h1 {
+  font-size: 50px;
+  font-family: "UniBlack", sans-serif;
+}
+.deletemeal-container .delete-msg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 34px;
+  margin: 30px 0;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 6px rgba(0, 0, 0, 0.35);
+  padding: 20px 40px;
+  padding-top: 54px;
+}
+.deletemeal-container .delete-msg h4 {
+  font-size: 60px;
+  font-family: "UniBlack", sans-serif;
+  margin-left: 10px;
+  color: #fff;
+}
+.deletemeal-container .cancelbuttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+  margin: 50px;
+}
+.deletemeal-container .cancelbuttons a {
+  border: none;
+  background-color: #fff;
+  padding: 16px 46px;
+  border-radius: 40px;
+  color: #db3832;
+  font-size: 28px;
+  font-family: "UniBlack", sans-serif;
+  cursor: pointer;
+  transition: ease 0.2s;
+  margin-top: 5px;
+  border: 2px solid #db3832;
+  text-decoration: none;
+}
+.deletemeal-container .cancelbuttons a:hover {
+  background-color: #db3832;
+  color: #fff;
+  border: 2px solid #fff;
 }

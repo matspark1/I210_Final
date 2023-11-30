@@ -74,6 +74,9 @@ WHERE $tblMeals.category_id = $tblCategory.category_id AND ";
          <div class="mealplans-boxes2">
              <?php while ($row = $query->fetch_assoc()){ ?>
                  <div class="mealplans-box">
+                     <a class="editbutton" title="Edit" href="editmeal.php?id=<?=$row['id']?>"
+                     ><i class="fa-solid fa-pen-to-square"></i
+                         ></a>
                      <img src="<?=$row['image']?>" />
                      <div class="mealplan-desc">
                          <h3><a class="mealtitle" href="mealdetails.php?id=<?=$row['id']?>"><?=$row['title']?></a></h3>

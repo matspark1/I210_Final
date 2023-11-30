@@ -11,11 +11,12 @@ $price = $_POST['price'];
 $serving_size = $_POST['serving_size'];
 $category_id = $_POST['category_id'];
 $description = $_POST['description'];
+$image = $_POST['image'];
 
 
 //Insert statement
-$sql = "INSERT INTO $tblMeals (title, price, serving_size, category_id, description)
-            VALUES ('$title', $price, '$serving_size', $category_id, '$description')";
+$sql = "INSERT INTO $tblMeals (title, price, serving_size, category_id, description, image)
+            VALUES ('$title', $price, '$serving_size', $category_id, '$description', '$image')";
 
 //Execute query
 $query = $conn->query($sql);

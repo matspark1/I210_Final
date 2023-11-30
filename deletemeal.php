@@ -42,47 +42,18 @@ if (!$row) {
     exit;
 }
 ?>
-<div style="text-align: center;">
-    <br>
-    <br>
-    <br>
-<h1>Confirm Deletion</h1>
-<div>
-    <p>Are you sure you want to delete this meal: <strong><?= $row['title'] ?></strong>?</p>
+<div class="deletemeal-container">
+    <h1>Confirm Deletion</h1>
+    <p>Are you sure you want to delete this meal?</p>
+    <div class="delete-msg">
+        <img src="<?=$row['image']?>" alt="<?=$row['title']?>" />
+        <h4><?=$row['title']?></h4>
+    </div>
     <p>This action cannot be undone.</p>
-</div>
-<div>
-    <a href="removemeal.php?id=<?= $id ?>">Delete</a>
-    <a href="mealdetails.php?id=<?= $id ?>">Cancel</a>
-</div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <div class="cancelbuttons">
+        <a href="mealdetails.php?id=<?=$id?>">Cancel</a>
+        <a href="removemeal.php?id=<?=$id?>">Delete</a>
+    </div>
 </div>
 <?php
 include('includes/footer.php');
