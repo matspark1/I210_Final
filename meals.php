@@ -48,7 +48,7 @@ if (!$query) {
                     <p>$<?= $row['price'] ?></p>
                     <p>Serving Size: <?= $row['serving_size'] ?></p>
                 </div>
-                <a href="###" class="addcartBtn">Add to Cart</a>
+                <a href="addtocart.php?id=<?=$row['id']?>" class="addcartBtn">Add to Cart</a>
                 <span>Free Shipping <i class="fa-solid fa-truck-fast"></i></span>
             </div>
         <?php } ?>

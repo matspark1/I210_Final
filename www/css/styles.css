@@ -377,6 +377,26 @@ nav .left-nav .login span {
   border: 3px solid #2d873c;
   transition: ease 0.2s;
 }
+
+.addcartBtn {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "UniBlack", sans-serif;
+  padding: 12px 36px;
+  border: 3px solid #fff;
+  background-color: #2d873c;
+  border-radius: 40px;
+  transition: ease 0.1s;
+  margin-top: 10px;
+}
+.addcartBtn:hover {
+  color: #2d873c;
+  background-color: #fff;
+  border: 3px solid #2d873c;
+  transition: ease 0.2s;
+}
+
 .mealplans-box span {
   margin-top: 15px;
 }
@@ -639,16 +659,16 @@ h3 {
 
 .order-total {
   display: flex;
-  width: 80%;
+  width: 86%;
   align-items: center;
   justify-content: space-evenly;
-  margin: 120px auto 0 auto;
+  margin: 80px auto 0 auto;
 }
 .order-total h2 {
   padding: 20px;
   font-family: "UniBlack", sans-serif;
   margin: 0 auto;
-  font-size: 30px;
+  font-size: 27px;
 }
 .order-total .order-total-number {
   color: #66B650;

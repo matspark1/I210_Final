@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="217af546-ca01-4d8c-94dd-ba8353a8fd72" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editmeal.php" beforeDir="false" afterPath="$PROJECT_DIR$/editmeal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meals.php" beforeDir="false" afterPath="$PROJECT_DIR$/meals.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +65,7 @@
       <workItem from="1701194405279" duration="26000" />
       <workItem from="1701195811528" duration="33000" />
       <workItem from="1701295775001" duration="1744000" />
+      <workItem from="1701303076428" duration="734000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -149,7 +147,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701295859547</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fixed stylings on crud processes">
+      <option name="closed" value="true" />
+      <created>1701303093155</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701303093155</updated>
+    </task>
+    <task id="LOCAL-00012" summary="sql file fix">
+      <option name="closed" value="true" />
+      <created>1701303186481</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701303186481</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +180,8 @@
     <MESSAGE value="quick fixes on titles and stuff" />
     <MESSAGE value="search function fixes" />
     <MESSAGE value="fix error.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix error.php" />
+    <MESSAGE value="fixed stylings on crud processes" />
+    <MESSAGE value="sql file fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql file fix" />
   </component>
 </project>

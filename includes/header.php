@@ -1,3 +1,19 @@
+<?php
+if(session_status() == PHP_SESSION_NONE){
+    session_start();
+}
+
+//shopping cart counter
+$count = 0;
+if(isset($_SESSION['cart'])){
+    $cart = $_SESSION['cart'];
+
+    if($cart){
+        $count = array_sum($cart);
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +43,7 @@
             <a href="shoppingcart.php"
             ><i class="fa-solid fa-cart-shopping"></i
                 ></a>
-            <a href="login.php" class="login"><span>Login</span></a>
+            <a href="loginform.php" class="login"><span>Login</span></a>
         </div>
     </nav>
     <div class="body-wrapper">
